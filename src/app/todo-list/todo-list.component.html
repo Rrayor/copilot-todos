@@ -1,0 +1,19 @@
+<ng-container>
+    <div class="todo-list">
+        <div class="todo-list__header">
+            <div class="todo-list__header__title">
+                <h1>{{title}}</h1>
+            </div>
+            <div class="todo-list__header__controls">
+                <app-todo-form></app-todo-form>
+            </div>
+        </div>
+        <div class="todo-list__body">
+            <div class="todo-list__body__todos">
+                <div *ngFor="let todo of todos">
+                    <app-todo-item [todo]="todo"></app-todo-item>
+                </div>
+            </div>
+        </div>
+    </div>
+</ng-container>
