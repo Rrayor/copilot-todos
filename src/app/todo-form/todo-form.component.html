@@ -1,0 +1,10 @@
+<ng-container>
+    <h1 class="form-title">Todo Form</h1>
+    <form #form="ngForm" (ngSubmit)="onSubmit(form.value)" novalidate>
+        <div class="form-group">
+            <label for="inputTitle">Title</label>
+            <input type="text" class="form-control" id="inputTitle" name="title" [(ngModel)]="title" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Add Todo</button>
+    </form>
+</ng-container>

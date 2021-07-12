@@ -1,0 +1,28 @@
+.todo-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.todo-list__header {
+  padding: 0.5rem;
+  background: #eee;
+}
+
+.todo-list__header__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.todo-list__header__controls {
+  margin-left: 0.5rem;
+}
+
+.todo-list__body {
+  padding: 0.5rem;
+}
+
+.todo-list__body__todos {
+  margin-bottom: 0.5rem;
+}
