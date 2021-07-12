@@ -1,5 +1,6 @@
 # CopilotTodo
-
+A sample project for trying out Github co-pilot. A simple TODO app I've been toying around with. Currently I mostly pressed tab and fixed the bugs, the copilot introduced.
+# Angular generated infos
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
 
 ## Development server
